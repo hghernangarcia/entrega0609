@@ -1,0 +1,30 @@
+
+header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    h1 {
+        color: red
+    }
+    nav {
+        background-color: beige;
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                color: green;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 1.5rem;
+
+                & :hover{
+                    background-color: antiquewhite;
+                }
+
+            }
+        }
+    }
+    
+}
